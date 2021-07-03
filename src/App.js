@@ -39,7 +39,7 @@ class App extends Component {
           <p className="uppercase tracking-wide text-sm text-black text-left font-semibold my-2">Customisation</p>
           <p className=" tracking-wide text-sm text-gray-600 text-left font-sm my-2">The text will reflect mobile view</p>
           <RichTextEditor
-            className="md:w-4/12 lg:w-full"
+            className="md:w-4/12 lg:w-8/12"
             value={this.state.value}
             onChange={this.onChange}
           />
