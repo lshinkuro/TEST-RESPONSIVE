@@ -27,12 +27,10 @@ class App extends Component {
   };
 
   submit = () => {
-    console.log("babi")
     this.setState({text:ReactHtmlParser(this.state.value.toString("html"))})
   }
 
   render() {
-    const { editorState } = this.props;
     return (
       <div className="flex justify-center flex-col md:flex-row items-center p-4 md:p-24 gap-2">
         <div className="hidden sm:block">
